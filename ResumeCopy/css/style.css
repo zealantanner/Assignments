@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+html, body {
+  background-color: #201D39;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+#contentContainer {
+  position: relative;
+  display: flex;
+  background: url(../images/grayBlob.svg) no-repeat;
+  background-size: 100%;
+  background-position-y: center;
+  background-position-x: -30px;
+  border-radius: 40px;
+  background-color: white;
+  width: 90%;
+  margin: 100px auto 0 auto;
+  padding-top: 40px;
+  box-shadow: 0 0 25px 0px rgba(255, 255, 255, 0.4);
+}
+#contentContainer img {
+  position: absolute;
+  z-index: 1;
+}
+#contentContainer .bigTriangle {
+  bottom: 7%;
+  left: 17%;
+}
+#contentContainer .smallTriangle {
+  bottom: 77%;
+  left: 85%;
+}
+#contentContainer .line1 {
+  bottom: 17%;
+  left: 87%;
+}
+#contentContainer .line2 {
+  bottom: 35%;
+  left: 15%;
+}
+#contentContainer .smallSquare {
+  bottom: 75%;
+  left: 17%;
+}
+#contentContainer .bigSquare {
+  bottom: 84%;
+  left: 74%;
+}
+#contentContainer .blueBird {
+  bottom: 92%;
+  left: 55%;
+}
+#contentContainer .pinkBird {
+  bottom: 20%;
+  left: 57%;
+}
+#contentContainer #nav {
+  background-color: #199BD3;
+  width: 170px;
+  padding-left: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 40px;
+}
+#contentContainer #nav #profilePicContainer {
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#contentContainer #nav #profilePicContainer img {
+  position: absolute;
+}
+#contentContainer #nav #profilePicContainer #picHolder {
+  bottom: -38.1px;
+  width: 100px;
+}
+#contentContainer #nav #profilePicContainer #pic {
+  bottom: -29.5px;
+  width: 57.5px;
+  border-bottom-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-radius: 100px;
+}
+#contentContainer #nav h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 40px 3px 10px 0;
+  font-size: 1em;
+}
+#contentContainer #nav #navitems {
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 100px;
+}
+#contentContainer #nav #navitems a {
+  cursor: pointer;
+  height: 43px;
+  margin-bottom: 25px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+#contentContainer #nav #navitems a i {
+  font-size: 1.5em;
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+#contentContainer #nav #navitems a p {
+  margin-left: 7px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+#contentContainer #nav #navitems :hover, #contentContainer #nav #navitems .active {
+  background-color: white;
+  color: #199BD3;
+}
+#contentContainer #nav #navitems .active:hover {
+  background-color: #199BD3;
+  color: white;
+}
+#contentContainer #nav #navitems .active:hover i, #contentContainer #nav #navitems .active:hover p {
+  background-color: #199BD3;
+  color: white;
+}
+#contentContainer #profilePic2 {
+  display: flex;
+  position: relative;
+  width: 45%;
+  margin: 0 0 40px 8%;
+  max-width: 500px;
+}
+#contentContainer #profilePic2 img {
+  position: absolute;
+  bottom: 100px;
+  min-width: 300px;
+  width: 90%;
+  left: -30px;
+}
+#contentContainer #text {
+  display: flex;
+  flex-flow: column;
+  width: 40%;
+  margin-top: 100px;
+}
+#contentContainer #text h1, #contentContainer #text h2, #contentContainer #text p {
+  margin: 0;
+  z-index: 3;
+}
+#contentContainer #text h1 {
+  font-size: 1.6em;
+  color: #FF416D;
+  margin-bottom: 15px;
+}
+#contentContainer #text h2 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+#contentContainer #text h2 span {
+  color: #FF416D;
+}
+#contentContainer #text p {
+  color: #696969;
+  line-height: 28px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+}
+#contentContainer #text img {
+  position: relative;
+  width: 120px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+#contentContainer #text button {
+  align-self: center;
+  background-color: #FF416D;
+  color: white;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 1000;
+  font-size: 1em;
+  border-radius: 100px;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+#contentContainer #links {
+  padding-bottom: 40px;
+  display: flex;
+  flex-flow: column;
+  justify-self: right;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+#contentContainer #links a {
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+#contentContainer #links a i {
+  color: #696969;
+  font-size: 1.25em;
+}
+#contentContainer #links .fa-behance {
+  color: #1690f4;
+}
+#contentContainer #absoluteImages {
+  position: relative;
+}
+#contentContainer #absoluteImages #scrollDown {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0vh;
+  left: 32.5vw;
+  width: 100px;
+  height: 80px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#contentContainer #absoluteImages #scrollDown p {
+  margin-top: 60px;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #B3B3B3;
+}
+
+/*# sourceMappingURL=style.css.map */
